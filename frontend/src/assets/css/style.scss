@@ -90,3 +90,17 @@ header {
         border: 1px solid $primary-color;
     }
 }
+
+.section-2 {
+    img {
+        border-radius: 40px;
+    }
+
+    span {
+        color: $primary-color;
+        font-size: 1.2em;
+        text-transform: uppercase;
+        padding-bottom: 10px;
+        font-weight: 500;
+    }
+}

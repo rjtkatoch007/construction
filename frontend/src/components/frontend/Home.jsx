@@ -43,13 +43,16 @@ const Home = () => {
                 </section>
                 {/*About Section*/}
                 <section className='section-2 py-5'>
-                    <div className="container">
+                    <div className="container py-5">
                         <div className="row">
                             <div className="col-md-6">
                                 <img src={AboutImg} className="w-100" />
                             </div>
                             <div className="col-md-6">
-
+                                <span>about us</span>
+                                <h2>Crafting structures that last a lifetime</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam velit lectus, auctor ut feugiat non, consequat at magna. Ut vel nisl semper, varius augue vel, congue augue. Curabitur purus est, blandit ut felis non, rhoncus porta dui. Aenean quis condimentum velit, ac placerat est.</p>
+                                <p>Nunc et maximus dolor. Aliquam nec dolor vitae libero pretium placerat eu quis nibh. Duis rhoncus laoreet mi, eget finibus mi dictum sed. Phasellus fringilla magna dui.</p>
                             </div>
                         </div>
                     </div>
